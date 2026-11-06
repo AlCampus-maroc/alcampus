@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/jpeg" href="../../icon.jpg">
+	
+    <meta name="robots" content="noindex, nofollow">
+
+    <title>403 - Accès interdit</title>
+
+    <link rel="stylesheet" href="../../css_js/style_2.css">
+	<style>
+.error-page {
+    min-height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.error-box h1 {
+    font-size: 90px;
+    color: #2563eb;
+    margin: 0;
+}
+
+.error-box h2 {
+    margin: 10px 0;
+    color: #1e293b;
+}
+
+.error-box p {
+    color: #64748b;
+    margin-bottom: 25px;
+}
+
+.back-btn {
+    display: block;
+    margin: 0 auto 18px;
+    padding: 12px 22px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.back-btn:hover {
+    background: #1d4ed8;
+}
+
+.home-link {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.home-link:hover {
+    text-decoration: underline;
+}
+</style>
+	
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container navbar">
+
+            <a href="#" class="logo">
+                <span>Al</span>Campus Concours
+                <small>MAROC</small>
+            </a>
+
+            <nav class="nav">
+                <a href="../../">Accueil</a>
+                <a href="../">Licence</a>
+                <a href="../../master/">Master</a>
+                <a href="../../concours/">Concours</a>
+                <a href="https://whatsapp.com/channel/0029VbD5DiECRs1jq2np7Y3G" target="_blank">WhatsApp</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <button class="menu-btn" id="menuBtn">
+				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="close" style="display:none">
+					<use href="#ic-close"></use>
+				</svg>
+				
+				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="menu">
+					<use href="#ic-menu"></use>
+				</svg>
+			</button>
+        </div>
+    </header>
+
+	<!-- Back -->
+	<main class="error-page">
+		<div class="error-box">
+			<h1>403</h1>
+			<h2>Accès interdit</h2>
+			<p>
+				Désolé, vous n'avez pas l'autorisation
+				d'accéder à cette page.
+			</p>
+
+			<a class="back-btn" href="../">
+				← Retour à la page précédente
+			</a>
+
+			<a href="../../" class="home-link">Retour à l'accueil</a>
+		</div>
+	</main>
+
+
+    <!-- Footer -->
+    <footer id="contact">
+
+        <div class="container footer-content">
+
+            <div>
+                <a href="#" class="logo">
+                    <span>Al</span>Campus Concours
+                    <small>MAROC</small>
+                </a>
+
+                <p>Votre plateforme pour trouver les Licences et formations universitaires au Maroc.</p>
+            </div>
+
+            <div>
+                <h4>Navigation</h4>
+                <a href="../../">Accueil</a>
+                <a href="../">Licence</a>
+                <a href="../../master/">Master</a>
+                <a href="../../concours/">Concours</a>
+            </div>
+
+            <div>
+                <h4>Contact</h4>
+                <a href="mailto:alcampus.maroc@gmail.com" style="display: inline-flex; align-items: center; gap: 6px; text-decoration: none;">
+					<svg width="20" height="20"
+						 viewBox="0 0 24 24"
+						 fill="none"
+						 stroke="#2563eb"
+						 stroke-width="1.8"
+						 stroke-linecap="round"
+						 stroke-linejoin="round"
+						 aria-hidden="true">
+						<use href="#ic-email"></use>
+					</svg>
+
+					<span>alcampus.maroc@gmail.com</span>
+				</a>
+                <br>
+				<p style="display: inline-flex; align-items: center; gap: 6px;">
+					<svg width="20" height="14" class="line" role="img" aria-label="Drapeau du Maroc">
+						<use href="#ic-maroc"></use>
+					</svg>
+					<span>Maroc</span>
+				</p>
+            </div>
+
+        </div>
+
+        <div class="copyright">© 2026 AlCampus Maroc — Tous droits réservés.</div>
+
+    </footer>
+
+	<!-- Icons SVG -->
+	<svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+		<symbol id="ic-maroc" viewBox="0 0 60 40">
+			<rect width="60" height="40" rx="5" fill="#C1272D"/>
+			<path d="M30 10 L34.7 24.5 L22.3 15.5 H37.7 L25.3 24.5 Z"
+				  fill="none"
+				  stroke="#006233"
+				  stroke-width="1.8"
+				  stroke-linejoin="round"/>
+		</symbol>
+	</svg>
+	
+	<svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+		<symbol id="ic-email" viewBox="0 0 24 24">
+			<rect x="3" y="5" width="18" height="14" rx="2"/>
+			<path d="m3 7 9 6 9-6"/>
+		</symbol>
+	</svg>
+	
+	<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+		<symbol id="ic-close" viewBox="0 0 24 24">
+			<path d="M18 6 6 18"/>
+			<path d="m6 6 12 12"/>
+		</symbol>
+	</svg>
+	
+	<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+		<symbol id="ic-menu" viewBox="0 0 24 24">
+			<path d="M4 5h16"/>
+			<path d="M4 12h16"/>
+			<path d="M4 19h16"/>
+		</symbol>
+	</svg>
+	<script>
+		const menuBtn = document.getElementById("menuBtn");
+		const nav = document.querySelector(".nav");
+
+		menuBtn.addEventListener("click", () => {
+
+			nav.classList.toggle("active");
+
+			if (nav.classList.contains("active")) {
+				document.getElementById("close").style.display = "block";
+				document.getElementById("menu").style.display = "none";
+			} else {
+				document.getElementById("menu").style.display = "block";
+				document.getElementById("close").style.display = "none";
+			}
+
+		});
+
+		document.querySelectorAll(".nav a").forEach(link => {
+
+			link.addEventListener("click", () => {
+
+				nav.classList.remove("active");
+				document.getElementById("menu").style.display = "block";
+				document.getElementById("close").style.display = "none";
+
+			});
+
+		});
+	</script>
+
+
+</body>
+</html>
